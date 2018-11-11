@@ -1,0 +1,105 @@
+body {
+ margin: 0 auto;
+ max-width: 100%;
+ }
+
+ .container {
+   display: flex;
+ }
+
+/*delete later*/
+div {
+   border: 1px solid black;
+ }
+
+
+large {
+ width: 60%;
+ margin-left: 24px;
+}
+
+
+/*Header*/
+
+nav-header {
+  height: 64px;
+}
+
+.nav-left {
+  margin-left: 24px;
+}
+
+.colmar {
+  font-weight: 700;
+}
+
+.academy {
+  color: grey;
+}
+
+
+.nav-left {
+  margin-left: 24px;
+  font-size: 32px;
+  width: auto;
+  border: 1px black solid;
+  display: inline-block;
+}
+
+.nav-bar {
+  display: inline-block;
+}
+
+.nav-bar a {
+  margin-left: 16px;
+}
+
+/*Main container*/
+.main-bar {
+  display: flex;
+  background-color: grey;
+}
+
+.banner {
+}
+
+.main-bar .banner  {
+
+}
+
+.main-bar .banner img {
+
+}
+
+.main-text {
+margin-left: 24px;
+}
+
+.main-text h2 {
+  font-size: 40px;
+}
+
+.main-text h3 {
+  font-size: 25px;
+}
+
+.main-text button {
+  background-color: red;
+  padding: 8px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+/*Second section - practising*/
+.box {
+  display: flex;
+}
+
+.box .text {
+  width: 40%;
+}
+
+.small-image .img {
+  width: 30%;
+  height: auto;
+}
