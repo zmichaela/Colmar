@@ -5,78 +5,73 @@ body {
 
  .container {
    display: flex;
-   margin: 0 24px;
  }
+
+h2 {
+   text-align: center;
+ }
+
 
 /*delete later*/
 div {
    border: 1px solid black;
  }
 
-large {
- width: 60%;
- margin-left: 24px;
-}
-
-
 /*Header*/
-
-nav-header {
+.nav-header {
   height: 64px;
+  padding: 0 24px;
 }
 
 .nav-left {
-  margin-left: 24px;
+  display: flex;
+  width: 100%;
+  font-size: 32px;
+  align-items: center;
 }
 
 .colmar {
-  font-weight: 700;
+  font-weight: 800;
+  margin-left: 10px;
 }
 
 .academy {
   color: grey;
 }
 
-
-.nav-left {
-  margin-left: 24px;
-  font-size: 32px;
-  width: auto;
-  border: 1px black solid;
-  display: inline-block;
-}
-
 .nav-bar {
-  display: inline-block;
+ display: flex;
+ padding-left: 16px;
+ width: 40%;
+ justify-content: flex-end;
+ align-items: center;
 }
 
 .nav-bar a {
   margin-left: 16px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
 }
 
 /*Main container*/
 .main-bar {
-  display: flex;
   background-color: grey;
 }
 
-.banner {
-}
-
-.main-bar .banner  {
-
-}
-
-.main-bar .banner img {
-
-}
 
 .large {
-padding: 32px 24px;
+ padding: 32px 24px;
+ width: 60%;
 }
 
-.main-text h2 {
-  font-size: 40px;
+
+.main-text {
+  padding-top: 6rem;
+}
+
+.main-text h1 {
+  font-size: 3rem;
 }
 
 .main-text h3 {
@@ -84,13 +79,15 @@ padding: 32px 24px;
 }
 
 .main-text button {
-  background-color: red;
+  background-color: lightblue;
   padding: 8px 0;
-  width: 100%;
+  width: 90%;
   font-size: 18px;
 }
 
 /*Second section - practising*/
+
+
 .second, .thesis {
   background-color: lightblue;
 }
