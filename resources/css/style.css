@@ -62,7 +62,7 @@ div {
 
 .large {
  padding: 32px 24px;
- width: 60%;
+ max-width: 60%;
 }
 
 
