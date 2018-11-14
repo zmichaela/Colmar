@@ -4,7 +4,6 @@ html {
   color: later*/
 }
 
-
 body {
   margin: 0 auto;
   max-width: 100%;
@@ -18,10 +17,13 @@ body {
  img, video {
    max-width: 100%;
    height: auto;
-   padding: 32px 24px 32px 24px;
  }
 
-h2 {
+p {
+    font-size: 1.15rem;
+  }
+
+  h2 {
    font-size: 3rem;
    text-align: center;
  }
@@ -86,9 +88,15 @@ div {
 }
 
 /*Main container*/
+.main-bar, .second {
+    padding: 32px 24px 32px 24px;
+}
+
 .main-bar {
   background-color: grey;
+
 }
+
 
 .main-text {
   max-width: 40%;
@@ -126,21 +134,40 @@ div {
 
 .articles {
   width: 40%;
-  padding: 2rem 1.5rem 0 0;
+  padding: 1rem;
+}
+
+#guest {
+  background-color: grey;
 }
 
 .box {
   display: flex;
 }
 
-.small-image .img {
+.small-image {
   width: 35%;
   height: auto;
 }
 
+.textbox {
+  padding: 0 1.5rem;
+}
+
+.textbox p {
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.name {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
 .box .text {
   width: 65%;
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 
 .box .text h3 {
@@ -165,10 +192,17 @@ div {
 .course {
   margin: 0 16px;
   background-color: white;
+}
 
+.course .text {
+  width: 80%;
 }
 
 /*Fourth section - video*/
+.videos .text h3 {
+  padding-top: 1.5rem;
+}
+
 
 /*Footer*/
 .footer {
