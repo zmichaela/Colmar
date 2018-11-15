@@ -15,6 +15,10 @@ body {
    align-content: center;
  }
 
+ .box {
+   display: flex;
+ }
+
  img, video {
    max-width: 100%;
    height: auto;
@@ -26,15 +30,26 @@ p {
 
  h2 {
    font-size: 3rem;
+   font-weight: 700;
+   text-align: center;
+   margin: 2rem 0;
  }
 
  h3 {
     font-size: 1.8rem;
   }
 
-  h4 {
+h4 {
      font-size: 1.25rem;
    }
+
+h5 {
+    padding: 0.5rem 0;
+  }
+
+p {
+  padding: 0.5rem 0;
+}
 
 /*delete later*/
 div {
@@ -69,20 +84,20 @@ div {
    padding: 1rem 0;
   }
 
-  .nav-bar ul {
+.nav-bar ul {
     display: flex;
     justify-content: flex-end;
    align-items: center;
 }
 
-  .nav-bar a {
+.nav-bar a {
     margin-left: 16px;
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
   }
 
-  .nav-bar a:hover {
+.nav-bar a:hover {
     color: lightblue;
   }
 
@@ -115,7 +130,9 @@ div {
 .main-text .lorem {
   font-size: 2rem;
   max-width: 26rem;
-  margin-bottom: 1.5rem
+  margin-bottom: 1.5rem;
+  text-align: left;
+
 }
 
 .main-text button {
@@ -141,10 +158,6 @@ div {
 
 #guest {
   background-color: grey;
-}
-
-.box {
-  display: flex;
 }
 
 .small-image {
@@ -183,22 +196,28 @@ div {
 
 /*Third section - practising*/
 .start-learning {
-  padding: 32px 56px;
+  padding: 0 3.5rem 2rem 3.5rem;
   background-color: grey;
 }
 
 .start-learning h2 {
-  padding: 32px 0;
   text-align: center;
 }
 
+.start-learning .box {
+  justify-content: center;
+}
+
+
 .course {
-  margin: 0 16px;
+  width: 29%;
+  margin: 1rem;
   background-color: white;
 }
 
 .course .text {
   width: 80%;
+  margin: 1rem 1rem 1.5rem 1rem;
 }
 
 /*Fourth section - video*/
@@ -208,8 +227,8 @@ div {
   margin-left: 1.5rem;
 }
 
-    .videos .text h3 {
-  padding-top: 1.5rem;
+.videos .text h3 {
+  padding: 1.5rem 0 0.5rem 0;
 }
 
 
