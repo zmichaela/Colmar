@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
   /*update later - font-family:
   color: later*/
 }
@@ -23,13 +24,12 @@ p {
     font-size: 1.15rem;
   }
 
-  h2 {
+ h2 {
    font-size: 3rem;
-   text-align: center;
  }
 
  h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h4 {
@@ -51,7 +51,7 @@ div {
   display: flex;
   width: 100%;
   height: auto;
-  font-size: 32px;
+  font-size: 2rem;
   align-items: center;
 }
 
@@ -65,23 +65,26 @@ div {
 }
 
 .nav-bar {
- display: flex;
- padding-left: 16px;
- width: 40%;
- justify-content: flex-end;
- align-items: center;
+   width: 40%;
+   padding: 1rem 0;
+  }
+
+  .nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+   align-items: center;
 }
 
-.nav-bar a {
-  margin-left: 16px;
-  font-size: 24px;
-  text-decoration: none;
-  color: black;
-}
+  .nav-bar a {
+    margin-left: 16px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
 
-.nav-bar a:hover {
-  color: lightblue;
-}
+  .nav-bar a:hover {
+    color: lightblue;
+  }
 
 .mobile {
   display: none;
@@ -94,31 +97,31 @@ div {
 
 .main-bar {
   background-color: grey;
-
 }
-
 
 .main-text {
   max-width: 40%;
   padding-top: 9rem;
+  margin-left: 1.5rem;
 }
 
 .main-text h1 {
-  font-size: 3rem;
-  max-width: 22rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+  max-width: 30rem;
   margin-bottom: 2rem;
 }
 
-.main-text h3 {
-  font-size: 25px;
-  max-width: 18rem;
-  margin-bottom: 2rem;
+.main-text .lorem {
+  font-size: 2rem;
+  max-width: 26rem;
+  margin-bottom: 1.5rem
 }
 
 .main-text button {
   align-items: center;
   background-color: lightblue;
-  padding: 8px 0;
+  padding: 0.5rem 0;
   width: 90%;
   font-size: 18px;
 }
@@ -134,7 +137,6 @@ div {
 
 .articles {
   width: 40%;
-  padding: 1rem;
 }
 
 #guest {
@@ -148,6 +150,7 @@ div {
 .small-image {
   width: 35%;
   height: auto;
+  padding: 1rem;
 }
 
 .textbox {
@@ -164,10 +167,10 @@ div {
   margin-bottom: 2rem;
 }
 
-
 .box .text {
   width: 65%;
   padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 .box .text h3 {
