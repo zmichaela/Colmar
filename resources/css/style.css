@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  color: #373737;
   /*update later - font-family:
   color: #373737 charcoal
   color: #f4f4f4 paper
@@ -31,9 +32,9 @@ body {
  }
 
 p {
-    font-size: 1.15rem;
-    font-family: 'Playfair Display', serif;
-    /*font-family: 'Roboto Slab', serif;*/
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.5;
   }
 
  h2 {
@@ -45,6 +46,7 @@ p {
 
  h3 {
     font-size: 1.8rem;
+    font-weight: 700;
   }
 
 h4 {
@@ -57,6 +59,7 @@ h5 {
 
 p {
   padding: 0.5rem 0;
+  color: black;
 }
 
 /*delete later*/
@@ -68,7 +71,7 @@ div {
 .nav-header {
   height: 64px;
   padding: 0 24px;
-  background-color: #9099a2;
+  background-color: #96858F;
 }
 
 .logo {
@@ -85,7 +88,7 @@ div {
 }
 
 .academy {
-  color: grey;
+  color: #d5d5d5;
 }
 
 .nav-bar {
@@ -103,11 +106,11 @@ div {
     margin-left: 16px;
     font-size: 1.5rem;
     text-decoration: none;
-    color: black;
+    color: #373737;
   }
 
 .nav-bar a:hover {
-    color: lightblue;
+    color: #d5d5d5;
   }
 
 .mobile {
@@ -147,10 +150,14 @@ div {
 
 .main-text button {
   align-items: center;
-  background-color: #dcd0c0;
+  background-color: #96858F;
   padding: 0.5rem 0;
   width: 90%;
   font-size: 18px;
+}
+
+.main-text button:hover {
+  color: #d5d5d5;
 }
 
 /*Second section - practising*/
@@ -166,8 +173,8 @@ div {
   width: 40%;
 }
 
-#guest {
-  background-color: #9099a2;
+#guest, #fisma {
+  background-color: #96858F;
 }
 
 .small-image {
@@ -176,13 +183,12 @@ div {
   padding: 1rem;
 }
 
-.textbox {
-  padding: 0 1.5rem;
+.textbox p {
+  width: 87%;
 }
 
-.textbox p {
-  font-size: 1.5rem;
-  padding: 0 1.5rem;
+.textbox h2 {
+  text-align: left;
 }
 
 .name {
@@ -221,11 +227,11 @@ div {
 .course {
   width: 29%;
   margin: 1rem;
-  background-color: #dcd0c0;
+  background-color: #96858F;
 }
 
 .course .text {
-  width: 80%;
+  width: 78%;
   margin: 1rem 1rem 1.5rem 1rem;
 }
 
@@ -244,11 +250,13 @@ div {
   padding-left: 1.5rem;
 }
 
-#fisma {
-background-color: #9099a2;
+/*Footer*/
+footer {
+  height: 3rem;
+  padding: 1rem 1.5rem;
 }
 
-/*Footer*/
-.footer {
-  height: 56px;
+.container .footer-bar {
+
+
 }
