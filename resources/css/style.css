@@ -2,7 +2,13 @@ html {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   /*update later - font-family:
-  color: later*/
+  color: #373737 charcoal
+  color: #f4f4f4 paper
+  color: #dcd0c0 silk
+ color: #96858F dusty
+ color: #6d7993 lavendar;
+ color: #9099a2 overcast;
+ color: #d5d5d5 paper */
 }
 
 body {
@@ -26,6 +32,8 @@ body {
 
 p {
     font-size: 1.15rem;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Roboto Slab', serif;*/
   }
 
  h2 {
@@ -60,6 +68,7 @@ div {
 .nav-header {
   height: 64px;
   padding: 0 24px;
+  background-color: #9099a2;
 }
 
 .logo {
@@ -87,7 +96,7 @@ div {
 .nav-bar ul {
     display: flex;
     justify-content: flex-end;
-   align-items: center;
+    align-items: center;
 }
 
 .nav-bar a {
@@ -111,7 +120,7 @@ div {
 }
 
 .main-bar {
-  background-color: grey;
+  background-color: #d5d5d5;
 }
 
 .main-text {
@@ -125,6 +134,7 @@ div {
   font-size: 3.5rem;
   max-width: 30rem;
   margin-bottom: 2rem;
+  color: #373737;
 }
 
 .main-text .lorem {
@@ -137,7 +147,7 @@ div {
 
 .main-text button {
   align-items: center;
-  background-color: lightblue;
+  background-color: #dcd0c0;
   padding: 0.5rem 0;
   width: 90%;
   font-size: 18px;
@@ -145,7 +155,7 @@ div {
 
 /*Second section - practising*/
 .second, .thesis {
-  background-color: lightblue;
+  background-color: #f4f4f4;
 }
 
 .second .large-image {
@@ -157,7 +167,7 @@ div {
 }
 
 #guest {
-  background-color: grey;
+  background-color: #9099a2;
 }
 
 .small-image {
@@ -197,7 +207,7 @@ div {
 /*Third section - practising*/
 .start-learning {
   padding: 0 3.5rem 2rem 3.5rem;
-  background-color: grey;
+  background-color: #d5d5d5;
 }
 
 .start-learning h2 {
@@ -208,11 +218,10 @@ div {
   justify-content: center;
 }
 
-
 .course {
   width: 29%;
   margin: 1rem;
-  background-color: white;
+  background-color: #dcd0c0;
 }
 
 .course .text {
@@ -231,6 +240,13 @@ div {
   padding: 1.5rem 0 0.5rem 0;
 }
 
+.articles {
+  padding-left: 1.5rem;
+}
+
+#fisma {
+background-color: #9099a2;
+}
 
 /*Footer*/
 .footer {
