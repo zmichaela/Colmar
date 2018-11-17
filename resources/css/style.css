@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  color: #262626;
+  color: #373737;
   /*update later - font-family:
   color: #373737 charcoal
   color: #f4f4f4 paper
@@ -57,7 +57,7 @@ h4 {
   }
 
 a {
-color: #4d4d4d;
+color: #373737;
 }
 
 a:hover {
@@ -178,7 +178,7 @@ div {
 
 .second .large-image {
  width: 60%;
- padding-top: 1.5rem;
+ padding-top: 2rem;
 }
 
 #firstarticles {
@@ -214,7 +214,7 @@ div {
   margin-bottom: 2rem;
 }
 
-.box .text {
+.articles .box .text {
   width: 55%;
   padding-top: 3rem;
   padding-left: 1rem;
@@ -262,6 +262,7 @@ div {
   max-width: 60%;
   height: auto;
   margin-left: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .videos .text h3 {
@@ -276,9 +277,6 @@ video {
 footer {
   height: 3rem;
   padding: 1rem 1.5rem;
-}
-
-.container .footer-bar {
-
-
+  border-top: #96858F 1px solid;
+  justify-content: space-between;
 }
