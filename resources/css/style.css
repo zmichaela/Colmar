@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  color: #373737;
+  color: #262626;
   /*update later - font-family:
   color: #373737 charcoal
   color: #f4f4f4 paper
@@ -35,6 +35,8 @@ p {
   font-size: 1.5rem;
   font-family: 'Roboto Slab', serif;
   line-height: 1.5;
+  padding: 0.5rem 0;
+  color: #4d4d4d;
   }
 
  h2 {
@@ -50,21 +52,30 @@ p {
   }
 
 h4 {
-     font-size: 1.25rem;
-   }
-
-h5 {
     padding: 0.5rem 0;
+    font-size: 1.25rem;
   }
 
-p {
-  padding: 0.5rem 0;
-  color: black;
+a {
+color: #4d4d4d;
+}
+
+a:hover {
+color: #d5d5d5;
 }
 
 /*delete later*/
 div {
    border: 1px solid black;
+ }
+
+ .articles {
+   width: 40%;
+   margin-left: 1.5rem;
+ }
+
+ .articles .box {
+   margin-bottom: 0.5rem;
  }
 
 /*Header*/
@@ -106,11 +117,6 @@ div {
     margin-left: 16px;
     font-size: 1.5rem;
     text-decoration: none;
-    color: #373737;
-  }
-
-.nav-bar a:hover {
-    color: #d5d5d5;
   }
 
 .mobile {
@@ -118,8 +124,8 @@ div {
 }
 
 /*Main container*/
-.main-bar, .second {
-    padding: 32px 24px 32px 24px;
+.main-bar {
+    padding: 2rem 1.5rem;
 }
 
 .main-bar {
@@ -130,20 +136,21 @@ div {
   max-width: 40%;
   padding-top: 9rem;
   margin-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 .main-text h1 {
   font-weight: 700;
-  font-size: 3.5rem;
-  max-width: 30rem;
+  font-size: 4.5rem;
+  max-width: 36rem;
   margin-bottom: 2rem;
   color: #373737;
 }
 
 .main-text .lorem {
-  font-size: 2rem;
-  max-width: 26rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.4rem;
+  max-width: 36rem;
+  margin-bottom: 2rem;
   text-align: left;
 
 }
@@ -152,8 +159,8 @@ div {
   align-items: center;
   background-color: #96858F;
   padding: 0.5rem 0;
-  width: 90%;
-  font-size: 18px;
+  width: 95%;
+  font-size: 1.5rem;
 }
 
 .main-text button:hover {
@@ -165,12 +172,24 @@ div {
   background-color: #f4f4f4;
 }
 
+.second {
+    padding: 2rem 1.5rem 0 1.5rem;
+}
+
 .second .large-image {
  width: 60%;
 }
 
-.articles {
-  width: 40%;
+#firstarticles {
+  border-left: #96858F 2px solid;
+}
+
+#firstarticles .box {
+  border-bottom: #96858F 2px solid;
+}
+
+#campus {
+  border-top: #96858F 2px solid;
 }
 
 #guest, #fisma {
@@ -178,7 +197,7 @@ div {
 }
 
 .small-image {
-  width: 35%;
+  width: 33%;
   height: auto;
   padding: 1rem;
 }
@@ -246,8 +265,8 @@ div {
   padding: 1.5rem 0 0.5rem 0;
 }
 
-.articles {
-  padding-left: 1.5rem;
+video {
+ margin-bottom: 1.5rem;
 }
 
 /*Footer*/
