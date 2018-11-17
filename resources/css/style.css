@@ -43,7 +43,7 @@ p {
    font-size: 3rem;
    font-weight: 700;
    text-align: center;
-   margin: 2rem 0;
+   padding: 2rem 0;
  }
 
  h3 {
@@ -71,7 +71,7 @@ div {
 
  .articles {
    width: 40%;
-   margin-left: 1.5rem;
+   margin-left: 1rem;
  }
 
  .articles .box {
@@ -87,15 +87,20 @@ div {
 
 .logo {
   display: flex;
-  width: 100%;
+  width: 70%;
   height: auto;
   font-size: 2rem;
   align-items: center;
 }
 
+.logo img {
+  width: 5%;
+}
+
+
 .colmar {
   font-weight: 800;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .academy {
@@ -168,7 +173,7 @@ div {
 }
 
 /*Second section - practising*/
-.second, .thesis {
+.second, .thesis, footer {
   background-color: #f4f4f4;
 }
 
@@ -275,8 +280,13 @@ video {
 
 /*Footer*/
 footer {
+  font-size: 1.1rem;
   height: 3rem;
   padding: 1rem 1.5rem;
   border-top: #96858F 1px solid;
   justify-content: space-between;
+}
+
+.footer-bar a {
+  padding-left: 1rem;
 }
