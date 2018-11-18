@@ -197,6 +197,12 @@ div {
   color: #d5d5d5;
 }
 
+@media only screen and (max-width: 900px) {
+.main-bar {
+   flex-direction: column;
+}
+}
+
 /*Second section - practising*/
 .second, .thesis, footer {
   background-color: #f4f4f4;
