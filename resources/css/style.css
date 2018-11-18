@@ -32,7 +32,7 @@ body {
  }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: 'Roboto Slab', serif;
   line-height: 1.5;
   padding: 0.5rem 0;
@@ -93,10 +93,6 @@ div {
   align-items: center;
 }
 
-.logo img {
-  width: 5%;
-}
-
 .colmar {
   font-weight: 800;
   margin-left: 8px;
@@ -118,7 +114,7 @@ div {
 
 .nav-bar a {
     margin-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 
@@ -153,23 +149,28 @@ div {
 /*Main container*/
 .main-bar {
     padding: 2rem 1.5rem;
+    align-items: center;
 }
 
 .main-bar {
   background-color: #d5d5d5;
 }
 
+.main-bar .large-image {
+ width: 60%;
+
+}
+
 .main-text {
   max-width: 40%;
-  padding-top: 9rem;
   margin-left: 1.5rem;
   padding-left: 1rem;
 }
 
 .main-text h1 {
   font-weight: 700;
-  font-size: 4.5rem;
-  max-width: 36rem;
+  font-size: 4rem;
+  max-width: 38rem;
   margin-bottom: 2rem;
   color: #373737;
 }
@@ -228,9 +229,7 @@ div {
 }
 
 .small-image {
-  width: 33%;
-  height: auto;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 .textbox p {
@@ -290,6 +289,10 @@ div {
 }
 
 /*Fourth section - video*/
+.thesis {
+  padding-right: 1.5rem;
+}
+
 .videos {
   max-width: 60%;
   height: auto;
