@@ -37,44 +37,44 @@ p {
   line-height: 1.5;
   padding: 0.5rem 0;
   color: #4d4d4d;
-  }
+}
 
  h2 {
-   font-size: 3rem;
-   font-weight: 700;
-   text-align: center;
-   padding: 2rem 0;
- }
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 2rem 0;
+}
 
  h3 {
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 
 h4 {
-    padding: 0.5rem 0;
-    font-size: 1.25rem;
-  }
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+}
 
 a {
-color: #373737;
+  color: #373737;
 }
 
 a:hover {
-color: #d5d5d5;
+  color: #d5d5d5;
 }
 
 /*delete later*/
 div {
    border: 1px solid black;
- }
+}
 
- .articles {
+.articles {
    width: 40%;
    margin-left: 1rem;
  }
 
- .articles .box {
+.articles .box {
    margin-bottom: 0.3rem;
  }
 
@@ -83,11 +83,11 @@ div {
   height: 64px;
   padding: 0 24px;
   background-color: #96858F;
+  justify-content: space-between;
 }
 
 .logo {
   display: flex;
-  width: 70%;
   height: auto;
   font-size: 2rem;
   align-items: center;
@@ -96,7 +96,6 @@ div {
 .logo img {
   width: 5%;
 }
-
 
 .colmar {
   font-weight: 800;
@@ -108,9 +107,8 @@ div {
 }
 
 .nav-bar {
-   width: 40%;
    padding: 1rem 0;
-  }
+}
 
 .nav-bar ul {
     display: flex;
@@ -119,13 +117,37 @@ div {
 }
 
 .nav-bar a {
-    margin-left: 16px;
+    margin-left: 1rem;
     font-size: 1.5rem;
     text-decoration: none;
-  }
+}
+
+@media only screen and (min-width: 907px) {
+.mobile {
+    display: none;
+}
+}
+
+/*mobile*/
+@media only screen and (max-width: 906px) {
+.logo, .nav-bar {
+   display: none;
+}
 
 .mobile {
-  display: none;
+  width: 100%;
+}
+
+.mobile ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile img {
+  height: 3rem;
+  width:auto;
+}
 }
 
 /*Main container*/
@@ -157,7 +179,6 @@ div {
   max-width: 36rem;
   margin-bottom: 2rem;
   text-align: left;
-
 }
 
 .main-text button {
@@ -170,6 +191,12 @@ div {
 
 .main-text button:hover {
   color: #d5d5d5;
+}
+
+@media only screen and (max-width: 1370px) and (min-width: 907px){
+.main-text {
+    padding-top: 4rem;
+}
 }
 
 /*Second section - practising*/
