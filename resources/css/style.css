@@ -142,7 +142,6 @@ div {
 
 .main-bar .large-image {
  width: 60%;
-
 }
 
 .main-text {
@@ -177,7 +176,7 @@ div {
 }
 
 /*mid-size*/
-@media only screen and (max-width: 1035px) {
+@media only screen and (max-width: 1035px) and (min-width: 788px){
 .main-text h1 {
     font-size: 3rem;
 }
@@ -186,8 +185,9 @@ div {
  font-size: 1.2rem;
 }
 
-  h2, .main-text .lorem {
+h2, .main-text .lorem {
     font-size: 1.8rem;
+    max-width: 30rem;
 }
 
 h3 {
@@ -237,6 +237,24 @@ p {
 .main-text h1 {
     padding-top: 2rem;
 }
+
+.second .large-image {
+  display: none;
+}
+
+.articles {
+  width: 100%;
+}
+
+.articles .box {
+  display: block;
+}
+
+.articles .box .text {
+  width: 100%;
+}
+}
+
 
 /*Second section - practising*/
 .second, .thesis, footer {
@@ -349,6 +367,13 @@ video {
  margin-bottom: 1.5rem;
 }
 
+/*mobile*/
+@media only screen and (max-width: 787px) {
+.articles .box .text {
+    width: 100%;
+    padding-left: 1rem;
+}
+}
 /*Footer*/
 footer {
   font-size: 1.1rem;
