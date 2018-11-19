@@ -123,31 +123,10 @@ div {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 901px) {
+/*desktop*/
+@media only screen and (min-width: 788px) {
 .mobile {
     display: none;
-}
-}
-
-/*mobile*/
-@media only screen and (max-width: 900px) {
-.logo, .nav-bar {
-   display: none;
-}
-
-.mobile {
-  width: 100%;
-}
-
-.mobile ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.mobile img {
-  height: 3rem;
-  width:auto;
 }
 }
 
@@ -197,10 +176,66 @@ div {
   color: #d5d5d5;
 }
 
-@media only screen and (max-width: 900px) {
-.main-bar {
-   flex-direction: column;
+/*mid-size*/
+@media only screen and (max-width: 1035px) {
+.main-text h1 {
+    font-size: 3rem;
 }
+
+.main-text button {
+ font-size: 1.2rem;
+}
+
+  h2, .main-text .lorem {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
+}
+}
+
+/*mobile*/
+@media only screen and (max-width: 787px) {
+.logo, .nav-bar {
+   display: none;
+}
+
+.mobile {
+  width: 100%;
+}
+
+.mobile ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile img {
+  height: 3rem;
+  width:auto;
+}
+
+.main-bar {
+   display: block;
+   padding: 0 0 2rem 0;
+}
+
+.main-bar .large-image {
+    width: 100%;
+}
+
+.main-text {
+    max-width: 100%;
+    padding-left: 0;
+}
+
+.main-text h1 {
+    padding-top: 2rem;
 }
 
 /*Second section - practising*/
@@ -247,6 +282,10 @@ div {
 .name {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.box {
+  padding: 0.4rem 0;
 }
 
 .articles .box .text {
