@@ -331,7 +331,7 @@ p, .nav-bar a {
 
 .images img {
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 #ourcampus, #guestlecture {
@@ -374,6 +374,18 @@ p, .nav-bar a {
 .course .text {
   width: 78%;
   margin: 1rem 1rem 1.5rem 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+.start-learning .box {
+   display: none;
+}
+
+.mobile-learning .text {
+   background-color: #96858F;
+   padding: 1rem 0 1.5rem 1rem;
+   margin: 0.5rem;
+}
 }
 
 /*Fourth section - video*/
