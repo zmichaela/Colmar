@@ -124,7 +124,7 @@ div {
 }
 
 /*desktop*/
-@media only screen and (min-width: 788px) {
+@media only screen and (min-width: 751px) {
 .mobile {
     display: none;
 }
@@ -176,7 +176,7 @@ div {
 }
 
 /*mid-size*/
-@media only screen and (max-width: 1035px) and (min-width: 788px){
+@media only screen and (max-width: 1035px) and (min-width: 751px){
 .main-text h1 {
     font-size: 3rem;
 }
@@ -194,15 +194,19 @@ h3 {
     font-size: 1.4rem;
 }
 
-p {
+p, .nav-bar a {
   font-size: 1rem;
 }
 }
 
 /*mobile*/
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 750px) {
 .logo, .nav-bar {
    display: none;
+}
+
+.main-text .button {
+ padding: 0 0 -0.5rem 0;
 }
 
 .mobile {
@@ -241,31 +245,18 @@ p {
 .second .large-image {
   display: none;
 }
-
-.articles {
-  width: 100%;
 }
-
-.articles .box {
-  display: block;
-}
-
-.articles .box .text {
-  width: 100%;
-}
-}
-
 
 /*Second section - practising*/
-.second, .thesis, footer {
+.second-desktop, .thesis, footer {
   background-color: #f4f4f4;
 }
 
-.second {
+.second-desktop {
     padding: 0 1.5rem 0 1.5rem;
 }
 
-.second .large-image {
+.second-desktop .large-image {
  width: 60%;
  padding-top: 2rem;
 }
@@ -285,8 +276,8 @@ p {
 }
 
 .small-image {
-  margin: 1rem;
-  max-width: 35%
+   width: 35%;
+   margin: 1rem;
 }
 
 .textbox p {
@@ -320,6 +311,44 @@ p {
 
 .box .text a {
   font-weight: 700;
+}
+
+/*mobile*/
+@media only screen and (min-width: 751px) {
+.second-mobile {
+ display: none;
+}
+}
+
+@media only screen and (max-width: 750px) {
+.second-desktop {
+   display: none;
+}
+
+.second-mobile {
+   margin-bottom: 2rem;
+}
+
+.images img {
+  width: 100%;
+  padding: 1rem;
+}
+
+#ourcampus, #guestlecture {
+  margin-top: 3rem;
+}
+
+.articles {
+  width: 100%;
+}
+
+.articles .box {
+  display: block;
+}
+
+.articles .box .text {
+  width: 100%;
+}
 }
 
 /*Third section - practising*/
@@ -368,7 +397,7 @@ video {
 }
 
 /*mobile*/
-@media only screen and (max-width: 787px) {
+@media only screen and (max-width: 750px) {
 .articles .box .text {
     width: 100%;
     padding-left: 1rem;
