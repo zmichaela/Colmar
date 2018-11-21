@@ -187,7 +187,6 @@ div {
 
 h2, .main-text .lorem {
     font-size: 1.8rem;
-    max-width: 30rem;
 }
 
 h3 {
@@ -376,6 +375,12 @@ p, .nav-bar a {
   margin: 1rem 1rem 1.5rem 1rem;
 }
 
+@media only screen and (min-width: 751px) {
+.mobile-learning {
+   display: none;
+}
+}
+
 @media only screen and (max-width: 750px) {
 .start-learning .box {
    display: none;
@@ -394,7 +399,7 @@ p, .nav-bar a {
 }
 
 .videos {
-  max-width: 60%;
+  width: 60%;
   height: auto;
   margin-left: 1.5rem;
   padding-bottom: 2rem;
@@ -414,7 +419,15 @@ video {
     width: 100%;
     padding-left: 1rem;
 }
+.thesis .articles, .thesis .videos .textbox {
+  display: none;
 }
+
+.container .videos {
+  width: 100%;
+}
+}
+
 /*Footer*/
 footer {
   font-size: 1.1rem;
