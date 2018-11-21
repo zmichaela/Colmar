@@ -327,9 +327,13 @@ p, .nav-bar a {
    margin-bottom: 2rem;
 }
 
+.images {
+  width: 95%;
+  padding: 1rem 0 1.5rem 1rem;
+}
+
 .images img {
   width: 100%;
-  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 #ourcampus, #guestlecture {
