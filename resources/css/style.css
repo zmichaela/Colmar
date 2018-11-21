@@ -2,35 +2,32 @@ html {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   color: #373737;
-  /*update later - font-family:
-  color: #373737 charcoal
-  color: #f4f4f4 paper
-  color: #dcd0c0 silk
- color: #96858F dusty
- color: #6d7993 lavendar;
- color: #9099a2 overcast;
- color: #d5d5d5 paper */
 }
+
+/*font-family:
+color: #373737 charcoal
+color: #96858F dusty
+color: #d5d5d5 paper */
 
 body {
   margin: 0 auto;
   max-width: 100%;
  }
 
- .container {
+.container {
    display: flex;
    align-content: center;
  }
 
- .box {
+.box {
   display: flex;
  }
 
- .articles .box {
+.articles .box {
   align-items: center;
  }
 
- img, video {
+img, video {
    max-width: 100%;
    height: auto;
  }
@@ -43,14 +40,14 @@ p {
   color: #4d4d4d;
 }
 
- h2 {
+h2 {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
   padding: 0 0 2rem 0;
 }
 
- h3 {
+h3 {
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -69,20 +66,15 @@ a:hover {
   color: #d5d5d5;
 }
 
-/*delete later*/
-div {
-   border: 1px solid black;
-}
-
 .articles {
    width: 40%;
    margin-left: 1rem;
    align-items: center;
- }
+}
 
 .articles .box {
    margin-bottom: 0.3rem;
- }
+}
 
 /*Header*/
 .nav-header {
