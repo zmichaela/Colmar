@@ -351,7 +351,7 @@ p, .nav-bar a {
   background-color: #d5d5d5;
 }
 
-.start-learning h2 {
+.start-learning h2,.thesis h2 {
   padding-top: 2rem;
 }
 
