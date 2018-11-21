@@ -388,10 +388,10 @@ p, .nav-bar a {
 .mobile-learning .text {
    background-color: #96858F;
    padding: 1rem 0 1.5rem 1rem;
-   margin: 0.5rem;
+   margin-top: 0.5rem;
 }
 .start-learning h2 {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 }
 
@@ -422,12 +422,18 @@ video {
     margin-left: 1rem;
     padding-left: 1rem;
 }
+
+.thesis h2 {
+  padding: 2rem 0 1rem 0;
+}
+
 .thesis .articles, .thesis .videos .textbox {
   display: none;
 }
 
 .container .videos {
   width: 100%;
+  padding-bottom: 0.5rem;
 }
 }
 
